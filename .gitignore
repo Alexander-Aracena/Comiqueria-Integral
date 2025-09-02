@@ -1,0 +1,21 @@
+### Exclusiones de Maven ###
+# Directorio de salida de la construcción (build)
+/Back/target/
+
+# Archivos de la envoltura (wrapper) de Maven
+/Back/.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de configuración de IDEs
+/Back/.idea/
+/Back/.vscode/
+/Back/.settings/
+/Back/.classpath
+/Back/.project
+/Back/.directory
+
+# Exclusiones específicas de NetBeans
+/Back/nb-configuration.xml
+/Back/nbactions.xml
+
+# Otros archivos
+/Back/*.log

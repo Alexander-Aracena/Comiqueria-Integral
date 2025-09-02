@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Comiqueria - Tu Tienda de Cómics Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="/" class="logo" data-route="/">La Comiqueria</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" data-route="/comics">CÓMICS</a></li>
+                    <li><a href="/categorias/manga" data-route="/categorias/manga">MANGA</a></li>
+                    <li><a href="/novedades" data-route="/novedades">NOVEDADES</a></li>
+                    <li><a href="/ofertas" data-route="/ofertas">OFERTAS</a></li>
+                    <li><a href="/contacto" data-route="/contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <input type="text" id="search-input" placeholder="Buscar cómics..." class="search-input">
+                <button id="search-button" class="icon-button" title="Buscar"><i class="fas fa-search"></i></button>
+                <button id="cart-button" class="icon-button" data-route="/carrito" title="Ver Carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-item-count" class="cart-count">0</span>
+                </button>
+                <button id="login-register-button" class="icon-button" data-route="/login" title="Ingresar / Registrarse"><i class="fas fa-user-circle"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main id="app-content" class="main-content container">
+        <p class="loading-message" style="text-align: center; padding: 50px; display: block;">Cargando contenido...</p>
+        <div id="feedback-message" class="feedback-message"></div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>ACERCA DE NOSOTROS</h3>
+                <p>Tu tienda de cómics favorita con la mejor selección y servicio.</p>
+            </div>
+            <div class="footer-section">
+                <h3>SÍGUENOS</h3>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONTACTO</h3>
+                <p>Email: info@lacomiqueria.com.ar</p>
+                <p>Tel: +54 9 11 1234 5678</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 La Comiqueria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

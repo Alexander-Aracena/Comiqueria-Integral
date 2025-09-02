@@ -1,0 +1,77 @@
+# 🚀 La Comiqueria - Tu Universo de Cómics Online
+
+¡Bienvenido al repositorio del frontend de **La Comiqueria**, tu destino digital para encontrar tus cómics y mangas favoritos! Esta aplicación web está diseñada para ofrecerte una experiencia de compra fluida e intuitiva, permitiéndote explorar un vasto catálogo, gestionar tu carrito de compras y asegurar tus pedidos de forma sencilla.
+
+---
+
+## ✨ Características Principales
+
+* **Exploración de Productos:** Navega por una amplia colección de cómics y mangas.
+* **Búsqueda Avanzada:** Encuentra fácilmente lo que buscas con nuestra función de búsqueda por título o descripción.
+* **Filtrado por Categorías:** Organiza tu búsqueda por categorías como "Cómics", "Manga", "Novedades" y "Ofertas".
+* **Detalle de Productos:** Visualiza información detallada de cada cómic, incluyendo precio, descripción, autores, editorial y más.
+* **Carrito de Compras Interactivo:** Añade productos, ajusta cantidades y elimina ítems de tu carrito de forma dinámica.
+* **Autenticación de Usuario:** Inicia sesión o regístrate para una experiencia personalizada.
+* **Proceso de Compra (Checkout):** Finaliza tus pedidos de manera segura después de iniciar sesión.
+* **Sistema de Rutas en Cliente:** Navegación fluida sin recargas de página completas gracias a un router JavaScript implementado desde cero.
+* **Mensajes de Feedback:** Notificaciones claras al usuario sobre acciones exitosas o errores.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto es una aplicación **Single Page Application (SPA)** construida con las bases de la web:
+
+* **HTML5:** Estructura de la página.
+* **CSS3:** Estilos personalizados para una interfaz atractiva y responsiva.
+* **JavaScript (Vanilla JS):** Toda la lógica del lado del cliente, incluyendo el router, la gestión del carrito y las interacciones con la API.
+
+### Integración con Backend
+
+Este frontend está diseñado para interactuar con una API RESTful. Asumimos que tienes un backend  que provee los datos de productos, gestiona la autenticación de usuarios y procesa las órdenes.
+
+---
+
+## 🚀 Cómo Empezar
+
+Para poner en marcha "La Comiqueria" en tu entorno local, sigue estos pasos:
+
+1.  **Clona el Repositorio:**
+    ```bash
+    git clone 
+    cd 
+    ```
+2.  **Abre el `index.html`:**
+    Simplemente abre el archivo `index.html` en tu navegador web. No requiere un servidor web local para el frontend, ¡funciona directamente!
+
+3.  **Configura el Backend (Importante):**
+    Asegúrate de tener un servidor de backend funcionando en `http://localhost:8080` (o la URL que hayas configurado en `script.js` en la variable `API_BASE_URL`). El frontend hará peticiones a esta URL para obtener datos de productos, autenticar usuarios, etc.
+
+    *Si tu backend está en otra URL o puerto, recuerda actualizar la variable `API_BASE_URL` en `script.js`.*
+
+---
+
+## 💡 Próximas Mejoras (Ideas)
+
+* Implementar un sistema de favoritos o "lista de deseos".
+* Agregar filtros más avanzados (por precio, autor, editorial, etc.).
+* Mejorar la interfaz de usuario con animaciones y transiciones más pulidas.
+* Integración con pasarelas de pago reales (Stripe, Mercado Pago, PayPal).
+* Secciones de perfil de usuario para ver historial de pedidos.
+* Optimización para SEO.
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar, encuentras algún error o quieres añadir nuevas características, no dudes en abrir un `issue` o enviar un `pull request`.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE).
+
+---
+
+**¡Esperamos que disfrutes explorando el universo de La Comiqueria!**
